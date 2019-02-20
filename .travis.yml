@@ -3,7 +3,7 @@ python:
   - '3.6'
 
 before_install:
-  - install graphviz
+  - sudo apt-get install graphviz
   - pip install -U -r requirements.txt
   - pip install .
 script:
